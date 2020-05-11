@@ -36,10 +36,10 @@
               <a class="nav-link" href="#">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
 
@@ -178,7 +178,7 @@
     </article>
   </section>
   <section class="container">
-    <h2 class="display-4 text-center my-4">Portfolio</h2>
+    <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -190,21 +190,18 @@
           <img src="img/img-cv/panaderia-cocu.jpg" class="d-block w-100" alt="practica-panaderia">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-warning">Página web de Panaderia</h5>
-
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/img-cv/Sin título.jpg" class="d-block w-100" alt="practica-html">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-danger">Primer página web</h5>
-
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/img-cv/elementos-bootstrap.jpg" class="d-block w-100" alt="practica-bootstrap">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-primary">Página sobre Bootstrap</h5>
-
           </div>
         </div>
       </div>
@@ -217,7 +214,41 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <hr>
   </section>
+  <h2 class="display-4 my-4 text-center" id="contacto">Contacto</h2>
+  <article class="m-4">
+    <div>
+      <div class="row">
+        <div class="col-md-6">
+          <iframe class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d250.82355110864387!2d150.6037386876279!3d-33.75599263534946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90d3f3aab8d53629!2sP%20Sherman!5e1!3m2!1ses-419!2sar!4v1589152847959!5m2!1ses-419!2sar"
+            height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label> Nombre y Apellido</label>
+              <input type="text" placeholder="Ingrese un nombre y apellido" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label> DNI</label>
+              <input type="number" placeholder="9999999" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label> E mail</label>
+              <input type="email" placeholder="ejemplo@gmail.com" class="form-control">
+            </div>
+            <div class="form-group">
+              <label> Consulta</label>
+              <textarea name="" id="" cols="70" rows="4" placeholder="Ingrese su Consulta"></textarea class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  </article>
   <footer class="bg-dark text-light py-4">
     <div class="container text-center">
       <i class="fab fa-linkedin fa-2x mr-2"></i>
